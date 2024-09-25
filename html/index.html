@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="" class="nav_logo">Formify</a>
+
+        <div class="nav_right">
+          <a href="" class="nav_menu">Administrator</a>
+          <a href="" class="nav_login">Logout</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="container">
+        <h1 class="title">Create Form</h1>
+      </section>
+
+      <section class="container_pt2">
+        <form action="" class="form">
+          <div class="input_container">
+            <label for="Form name">Form Name</label>
+            <input type="text" class="input" />
+          </div>
+
+          <div class="input_container">
+            <label for="Form name">Form Slug</label>
+            <input type="text" class="input" />
+          </div>
+
+          <div class="input_container">
+            <label for="desciption">Description</label>
+            <textarea name="desciption" class="input" rows="7"></textarea>
+          </div>
+
+          <div class="input_container">
+            <label for="domains">Allowed Domains</label>
+            <input type="text" class="input" />
+            <p class="text-gray">
+              Separate domains using comma ",". Ignore for public access.
+            </p>
+          </div>
+
+          <div>
+              <input type="checkbox">
+              <span>Limit to 1 response</span>
+          </div>
+
+          <button class="btn">
+            Save
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
